@@ -54,7 +54,7 @@ Menus:
 
 params:
   title: "Hugo Profile"
-  description: Text about my cool site
+  description: Text about my portfolio
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -103,7 +103,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "Ankita portfolio" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
@@ -118,9 +118,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Viyoni."
-    subtitle: "Shaping healthy futures, one consultation at a time."
-    content: "Melding medicine and marketing to create thriving healthcare solutions."
+    title: "Ankita."
+    subtitle: "Tech Enthusiast and Problem Solver: Showcasing a Journey in Technical Excellence."
+    content: "From Algorithms to Applications: A Technical Odyssey in the Digital Landscape."
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -134,12 +134,12 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/anki9905
+       # - icon: fab fa-twitter
+        #  url: https://example.com
+      #customIcons:
+       # - icon: /fav.png
+         # url: "https://example.com"
 
   # About
   about:
@@ -147,28 +147,30 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am an MD with a passion for better healthcare solutions, currently honing my business acumen at 
-      Duke's Fuqua school of business. As an aspiring consultant, I am eagerly exploring the fusion of medicine and management, poised to drive
-      innovation and bring more empathy in healthcare. 
+      Passionate about developing innovative software solutions and eager to solve complex problems using multiple methods.Quick Learner with Continuous Growth. 
     skills:
       enable: true
       title: "Here are a few things which I know:"
       items:
-        - "Patient care"
-        - "Microsoft Excel"
-        - "Medical research"
-        - "Finance and Accouting"
-        - "Statistics"
+        - "DS/ ML/AL : Machine Learning Algorithms, ANN, CNN, NLP, Data Preprocessing."
+        - "Python packages and Frameworks : NumPy,Pandas,Matplotlib,Seaborn, Scikit-Learn,Tensorflow,Keras,SciPy,Beautiful Soup."
+        - "Programming & Database Language : Python3, MySQL,MongoDB, Postgresql"
+        - "Mlops Tools : DVC, git actions(CI/CD) ,Airflow."
+        - "Web Development : HTML, CSS, Javascript, PHP, Bootstrap, React, Django,Fast API, Flask, Web scraping"
+        - "IDEs : Jupyter Notebook, VS Code, PyCharm, Google Colab."
+        - "Visualization Tool : Excel, Power BI, Looker, Tableau."
+        - "Cloud Based Deployment and Containers : AWS, Git, Docker, Code Pipeline."
+
 
   # Experience
   experience:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Medical intern"
-        company: "MK Shah Medical college"
-        date: "April 2022 - April 2023"
-        content: "During this internship, I was able to apply theoretical knowledge from my medical studies in real-world clinical settings. Responsibilities included conducting patient histories and physical examinations, developing diagnostic plans, and managing patient cases under the supervision of experienced doctors. I also participated in regular ward rounds, surgical procedures, and multidisciplinary team meetings. This experience deepened my understanding of patient care and the intricacies of the healthcare system, which I am keen to leverage in my future career as a healthcare consultant."
+      - job: "Machine Learning Intern"
+        company: "SPK-MAK Technologies"
+        date: "June 2023 - Sept 2023"
+        content: "During this internship, I was able to direct predictive modeling to forecast liability customer's likelihood of purchasing personal loans. Applied logistic regression for accuracy improvement and orchestrated successful model deployment, showcasing strategic financial decision-making and technical proficiency."
 
 
   # Education
@@ -177,37 +179,60 @@ params:
     # title: "Custom Name"
     index: false
     items:
-      - title: "Master of Management"
+      - title: "Master of Computer Applications"
         school:
-          name: "Fuqua school of business, Durham"
-        date: "2023 - "
+          name: "Birla Global University,Bhubaneswar"
+        date: "2022 - 2024 "
+        CGPA: "10"
 
-      - title: "MBBS"
+      - title: "Master of Science"
         school:
-          name: "M.K.Shah Medical college"
-        date: "2017 - 2022"
-        CGPA: "7.1"
+          name: "Centurion University"
+        date: "2020 - 2022"
+        CGPA: "9.4"
 
-  # Achievements
-  achievements:
+      - title: "Bachelor of Science."
+        school:
+          name: "F.M University"
+        date: "2017 - 2020"
+        CGPA: "8.36"
+
+  # Projects
+  projects:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Conducted a survey of 1400 households to evaluate how many women get cervical screenings done
-        content: 552 women, belonging to age group 25 to 64.
-      - title: Organized one on one counselling sessions.
-        content: Created awareness among many women to undergo regular screenings to prevent HPV infection.
-      - title: Trained 100 nursing students
-        content: Taught them various aspects of healthcare including sample collection, intravenous admission of drugs.
-      - title: Managed 10 teams responsible for daily house visits of Covid patients
-        content: Oversaw daily vitals and symptoms of every patient brought to me by 10 teams and deciding if hospitalisation is imperative or not.
+      - title: Medicine Recommendation System.
+        content: Built a dynamic System, integrating innovative recommendation algorithms and deploying a user-friendly API. Demonstrated technical prowess and strategic decision-making, personalization in healthcare informatics.
+      - title: Detecting Credit Card Fraud.
+        content: Led a pivotal initiative, employing advanced anomaly detection techniques. Engineered robust models, showcasing strategic decision-making and expertise in enhancing financial security.
+      - title: Fake News detection Model.
+        content: Developed a sophisticated Fake News Detection Model, implementing intricate algorithms for nuanced analysis. Leveraged expertise in natural language processing and machine learning, contributing to the ongoing battle against misinformation.Built a restful api and deployed to EC2 instance using docker and github actions.
+      - title: Crop Potato Disease Detection.
+        content: Directed the cutting-edge Crop Potato Disease Detection initiative, employing TensorFlow and OpenCV for computer vision. Implemented a Custom Convolutional Neural Networks (CNN) for intricate disease pattern recognition. Employed cloud-based storage solutions for efficient data management. Demonstrated advanced expertise in agrotech and deep learning, fostering sustainable agricultural practices.
+      - title: Building a powerful Job Recommendation System.
+        content: Steered the development of a potent System, leveraging advanced recommendation algorithms. Oversaw model deployment via an API, showcasing technical expertise & strategic decision-making in talent acquisition.
+      - title: Research Paper Recommendation System & Subject Area Prediction.
+        content: Directed the creation of an advanced Research Paper Recommendation System, employing state-of-the-art algorithms. Developed a model predicting subject areas, showcasing versatile expertise in academic research and predictive analytics.
+      - title: Grammar and Spell Checker App with Python.
+        content: Orchestrated the development of a sophisticated Grammar and Spell Checker App using Python. Applied cutting-edge algorithms for precise language analysis, showcasing expertise in natural language processing and advanced software engineering.
 
+  # Certifications
+  pcertification:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Introduction to Cloud Computing - IBM Certified
+      - title: Introduction to DevOps from Coursera
+      - title: Tools for Data Science from Coursera
+      - title: Machine Minds - A Workshop on Machine Learning and Data Science
+       
   #Contact
   contact:
     enable: true
     # title: "Custom Name"
     content: My inbox is always open. Whether you have a question or just want to say hi, I’ll try my best to get back to you!
-    email: viyonithakkar3@gmail.com
+    email: ankitachoudhury9905@gmail.com
     btnName: Mail me
     # formspree:
     #   enable: true # `contact.email` value will be ignored
@@ -223,7 +248,7 @@ params:
 #      enable: true
 #      disableFeaturedImage: false
     socialNetworks:
-      linkedin: https://linkedin.cohttps://www.linkedin.com/in/dr-viyoni-thakkar-b59792248/?originalSubdomain=inm
+      linkedin: https://www.linkedin.com/in/ankita9905/
 
   # List pages like blogs and posts
   listPages:
