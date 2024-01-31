@@ -118,7 +118,7 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Ankita."
+    title: "Trishhhaa."
     subtitle: "Tech Enthusiast and Problem Solver: Showcasing a Journey in Technical Excellence."
     content: "From Algorithms to Applications: A Technical Odyssey in the Digital Landscape."
     image: /images/hero.svg
