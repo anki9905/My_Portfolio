@@ -103,7 +103,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Ankita portfolio" # Brand name for the brand | default is the title variable
+    brandName: "Ankita Portfolio" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     menus:
@@ -121,7 +121,7 @@ params:
     title: "Ankita."
     subtitle: "Tech Enthusiast and Problem Solver: Showcasing a Journey in Technical Excellence."
     content: "From Algorithms to Applications: A Technical Odyssey in the Digital Landscape."
-    image: /images/hero.svg
+    image: "\images\AC.jpg"
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -145,7 +145,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: ""C:\Users\ANKITA\website-template\images\AC.jpg""
     content: |-
       Passionate about developing innovative software solutions and eager to solve complex problems using multiple methods.Quick Learner with Continuous Growth. 
     skills:
@@ -193,7 +193,7 @@ params:
 
       - title: "Bachelor of Science."
         school:
-          name: "F.M University"
+          name: "Fakir Mohan University"
         date: "2017 - 2020"
         CGPA: "8.36"
 
@@ -218,7 +218,7 @@ params:
         content: Orchestrated the development of a sophisticated Grammar and Spell Checker App using Python. Applied cutting-edge algorithms for precise language analysis, showcasing expertise in natural language processing and advanced software engineering.
 
   # Certifications
-  pcertification:
+  certification:
     enable: true
     # title: "Custom Name"
     items:
